@@ -7,6 +7,12 @@ Hiểu Big-O, phân tích độ phức tạp, ôn tập C++ cơ bản.
 
 ### Bài 1: Phân tích Big-O ⭐
 Xác định Big-O của 10 đoạn code C++ cho trước. Giải thích tại sao.
+| Big-O    | Ví dụ                 |
+| -------- | --------------------- |
+| O(1)     | truy cập phần tử mảng |
+| O(log n) | binary search         |
+| O(n)     | duyệt mảng            |
+| O(n²)    | nested loop           |
 
 ### Bài 2: Đo thời gian thực tế ⭐⭐
 Dùng `chrono` đo thời gian chạy của O(n), O(n²), O(log n) với n = 1.000 → 100.000. In bảng kết quả.
